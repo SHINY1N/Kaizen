@@ -330,7 +330,7 @@ function autoFarmShroom(tool2use)
                                 game:GetService("Players").LocalPlayer.Character.Humanoid:EquipTool(game.Players.LocalPlayer.Backpack[tool2use])
                             end
                             --Chareee:WaitForChild("HumanoidRootPart",9e99).CFrame = v:WaitForChild("HumanoidRootPart",9e99).CFrame + Vector3.new(0,-5,0)
-                            game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = getMob('Shroom').HumanoidRootPart.CFrame * CFrame.new(0,0,6.8)
+                            game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = getMob('Shroom').HumanoidRootPart.CFrame * CFrame.new(0,4,6.8)
                             if getgenv().Autofarm == true and not questuithing.Text:lower():find('5/5') then
                                 attack4Farm(tool2use)
                             end
